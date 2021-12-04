@@ -17,7 +17,7 @@ public class BaseClass {
 		return driver;
 	}
 	
-	//Pass parameters while building
+	//Pass parameters while building or while running test cases
 	
 	@Parameters({"Browser","URL"})
 	@BeforeClass
